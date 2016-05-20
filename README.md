@@ -44,6 +44,12 @@ See templates in monitoring/influxdata
 
 If you have a set of templates that you'd like to implement using the same framework, reach out via issues or email. 
 
+## Expected behavior
+
+Many tools provide ways to implement some form of processing logic. This logic then makes the behavior of the app unpredictable from the outside world, and limits the ability to share practices and files. 
+
+While this may very well be an example of the "Nth standard", we expect at least the output of the processing to be standardized in the context of this list of templates. As it is not possible to provide a standard for all tools, a set of rules will be applied to each tool individually, in their respective folders. 
+
 ## Juju charms
 
 If you'd like to create a Juju charm for monitoring or logging that uses this set of template, don't hesitate to reach out for best practices. 
