@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Source: https://github.com/uken/fluent-plugin-elasticsearch
-OUTPUT_PLUGIN=fluent-plugin-elasticsearch
+OUTPUT_PLUGIN=fluent-plugin-influxdb
 
 (gem list | egrep ${OUTPUT_PLUGIN}) \
 	&& echo "already installed. Skip install" \
